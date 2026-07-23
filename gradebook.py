@@ -14,7 +14,18 @@ def read_valid_mark():
 
 # Adds a new student to the gradebook dictionary
 def add_student(gradebook):
-    ...
+    name = input("Student name: ").strip()
+
+    if name == "":
+        print("back to menu.")
+        return
+
+    if name in gradebook:
+        print(name + " already exists.")
+        return
+
+    gradebook[name] = []
+    print(name + " added.")   
 
 # Adds one validated mark to an existing student
 def add_mark(gradebook):
@@ -53,7 +64,7 @@ while True:
     choice = input("Choose an option (1-7): ")
 
     if choice == "1":
-        print("Add student feature coming soon.")
+        add_student(gradebook)
 
     elif choice == "2":
         print("Add mark feature coming soon.")
