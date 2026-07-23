@@ -1,7 +1,7 @@
-# Student Gradebook Manager
+
 # Student Gradebook Manager
 
-**Author:** Mosa
+**Author:** Mosa Ndlovu
 
 **Cohort:** Data Science Practitioner 2026 - Melsoft Academy
 
