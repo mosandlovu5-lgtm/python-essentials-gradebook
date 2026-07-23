@@ -41,4 +41,38 @@ gradebook = {}
 
 while True:
     # print the menu ,read the choice,call the right function
-  ...
+    print("\n===== STUDENT GRADEBOOK MANAGER =====")
+    print("1. Add a student")
+    print("2. Add a mark")
+    print("3. View all students")
+    print("4. Student summary")
+    print("5. Class statistics")
+    print("6. Remove a student")
+    print("7. Exit")
+
+    choice = input("Choose an option (1-7): ")
+
+    if choice == "1":
+        print("Add student feature coming soon.")
+
+    elif choice == "2":
+        print("Add mark feature coming soon.")
+
+    elif choice == "3":
+        print("View all feature coming soon.")
+
+    elif choice == "4":
+        print("Student summary feature coming soon.")
+
+    elif choice == "5":
+        print("Class statistics feature coming soon.")
+
+    elif choice == "6":
+        print("Remove student feature coming soon.")
+
+    elif choice == "7":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice, please enter 1-7.")
